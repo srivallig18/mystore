@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          margin: 0px;
+        }
+        .header {
+          background-color: rgb(246, 255, 0);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .header a {
+          text-decoration: none;
+        }
+        .header li {
+          display: inline-block;
+          padding: 10px;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+        .row {
+          display: flex;
+          justify-content: center;
+          padding :100px;
+          height:600px;
+          align-items: center;
+        }
+        .row .box {
+          border: solid 1px silver;
+          margin: 10px;
+          width: 300px;
+        
+  
+        }
+        .row2 {
+          display: flex;
+          justify-content: center;
+          background-color: rgb(5, 5, 5);
+          height:800px;
+          padding:100px;
+          align-items: center;
+        }
+        .row2 .box {
+          
+          width: 500px;
+          margin: 10px;
+          background: rgb(249, 245, 245);
+          height: 300px;
+          
+          
+        }
+        .footer{
+          background-color: rgb(0, 0, 0);
+          color: rgb(255, 255, 255);
+          text-align: center;
+          padding: 20px;
+        }
+        img {
+          width: 300px;
+        }
+  
+      </style>
+</head>
+<body>
+    <div>
+        <div class="header">
+          <div>
+            <h1>My Store</h1>
+          </div>
+          <div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About </a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="box">
+            <img src= "assest/image/vg.jpg" height="300" width="800"/>
+            <h3>Painting 1</h3>
+            <h4>The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh, painted in June 1889.</h4>
+            Price:$2500<button>  Add to Cart</button>
+          </div>
+          <div class="box">
+            <img src="assest/image/swan.jpg"height="300" width="800" />
+            <h3>Painting 2</h3>
+            <h4>A graceful swan glides peacefully across a tranquil lake, its reflection shimmering in the soft light.</h4>
+            Price:$2000<button>  Add to Cart</button>
+          </div>
+          <div class="box">
+            <img src="assest/image/vg2.jpeg" height="300" width="800"/>
+            <h3>Painting 3</h3>
+            <h4>A vivid, emotive scene brought to life with bold, swirling brushstrokes and vibrant, contrasting colors, capturing the essence of Van Gogh’s unique vision and emotional intensity.</h4>
+            Price:$2300<button>  Add to Cart</button>
+          </div>
+        </div>
+  
+        <div class="row2">
+          <img src="assest/image/eye.jpg"height="300" width="800" />
+          <div class="box" >
+            <h3>Painting 4</h3>
+            <h4>
+                A detailed close-up of an eye, its iris shimmering with intricate patterns and vibrant hues, capturing a sense of depth and emotion within a single, powerful gaze.
+            </h4>
+          </div>
+        </div>
+  
+        <div class="row2" style="background-color: rgb(255, 255, 255);">
+          <div class="box" >
+              <h3>Painting 5</h3>
+              <h4>
+                An expressive composition filled with dynamic textures and radiant colors, conveying both the beauty and turbulence of the natural world through Van Gogh’s distinct perspective.
+              </h4>
+            </div>
+          
+            <img src="assest/image/vg1.webp"height="300" width="800"/>
+         
+          
+        </div>
+  
+        <div class="footer">
+          <footer>@Copyright 2024. All rights reserved.</footer>
+        </div>
+  
+      </div>
+</body>
+</html>
